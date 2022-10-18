@@ -12,6 +12,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    // ignore: prefer_const_constructors
+    return Scaffold(
+      // ignore: prefer_const_constructors
+      body: Center(
+        child: Text('Home Page'),
+      ),
+    );
   }
 }
